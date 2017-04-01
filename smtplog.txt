@@ -1,0 +1,19 @@
+Raymond Sit 42881366
+RX> 220 moss.labs.eait.uq.edu.au ESMTP Postfix<r><n>
+TX> EHLO itee.uq.edu.au<n><r>
+RX> 250-moss.labs.eait.uq.edu.au<r><n>250-PIPELINING<r><n>250-SIZE 10240000<r><n>250-VRFY<r><n>250-ETRN<r><n>250-ENHANCEDSTATUSCODES<r><n>250-8BITMIME<r><n>250 DSN<r><n>
+TX> MAIL FROM:<robot@itee.uq.edu.au><r><n>
+RX> 250 2.1.0 Ok<r><n>
+TX> RCPT TO:<raymond.sit@uq.net.au><r><n>
+RX> 250 2.1.5 Ok<r><n>
+TX> DATA<r><n>
+RX> 354 End data with <CR><LF>.<CR><LF><r><n>
+TX> Subject: Test Email for Assignment 1 in Computer Networks<r><n>
+Sat, 01 Apr 2017 17:09:15 +0000<r><n><r><n>
+FROM:   moss.labs.eait.uq.edu.au   [130.102.72.7]<r><n><r><n>
+TO:   moss.labs.eait.uq.edu.au ESMTP Postfix   [127.0.0.1]<r><n><r><n>
+SMTP extensions supported: <n><r>PIPELINING<n><r>SIZE 10240000<n><r>VRFY<n><r>ETRN<n><r>ENHANCEDSTATUSCODES<n><r>8BITMIME<n><r>DSN
+<r><n>.<r><n>
+RX> 250 2.0.0 Ok: queued as 0D22D8019305<r><n>
+TX> QUIT<r><n>
+RX> 221 2.0.0 Bye<r><n>
